@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
+    "./index.html"
+  ],
   darkMode: 'class',
   theme: {
     extend: {
@@ -8,18 +12,22 @@ module.exports = {
         'inter': ['Inter', 'sans-serif'],
       },
       colors: {
-        primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
-        }
+        black: '#000',
+        white: '#fff',
+        orange: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fdba74',
+          300: '#fb923c',
+          400: '#f97316',
+          500: '#ea580c',
+          600: '#c2410c',
+          700: '#9a3412',
+          800: '#7c2d12',
+          900: '#431407',
+        },
+        gradientStart: '#000000ff',
+        gradientEnd: '#2a2320ff',
       },
       animation: {
         'fade-in': 'fadeIn 1s ease-in-out',
