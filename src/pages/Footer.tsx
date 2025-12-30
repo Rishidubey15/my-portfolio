@@ -21,7 +21,7 @@ const Footer = () => (
         </div>
         <div className="border-t border-orange-400 pt-8">
           <p className="text-white">
-            © 2024 Rishi Dubey. All rights reserved.
+            © 2025 Rishi Dubey. All rights reserved.
           </p>
         </div>
       </div>

@@ -23,7 +23,7 @@ function Hero() {
               <a href="#contact" className="border-2 border-orange-400 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-400 hover:text-black transition-colors">
                 Get In Touch
               </a>
-              <a href="/public/Rishi_Dubey_Resume.pdf" download className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-8 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-orange-500 transition-colors">
+              <a href="/Rishi-resume.pdf" download className="bg-gradient-to-r from-orange-500 to-orange-400 text-white px-8 py-3 rounded-full font-semibold hover:from-orange-600 hover:to-orange-500 transition-colors">
                 Download Resume
               </a>
             </div>
